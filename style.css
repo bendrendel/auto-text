@@ -13,4 +13,30 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background-color: darksalmon;
+}
+
+#text {
+  font-size: 1.5rem;
+}
+
+#speed-control {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#speed {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: dark-salmon;
+  border: none;
+  text-align: center;
+}
+
+#speed:focus {
+  outline: none;
 }
